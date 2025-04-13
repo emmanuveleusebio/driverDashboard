@@ -54,13 +54,13 @@ export default function Home() {
         </h2>
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10 mb-12">
-        <Image
-  src="/whyDrive.png"
-  alt="Driver Illustration"
-  width={400}
-  height={400}
-  className="object-contain transition-transform duration-500 hover:scale-x-[-1]"
-/>
+          <Image
+            src="/whyDrive.png"
+            alt="Driver Illustration"
+            width={400}
+            height={400}
+            className="object-contain transition-transform duration-500 hover:scale-x-[-1]"
+          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -86,7 +86,7 @@ export default function Home() {
               Get support at every turn
             </h3>
             <p className="text-gray-600 text-sm">
-              If there's anything that you need, you can reach us anytime.
+              {"If there's anything that you need, you can reach us anytime."}
             </p>
           </div>
         </div>
